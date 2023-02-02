@@ -1,9 +1,9 @@
 function App() {
   return (
     <div className="App">
-      <main className="flex">
-        <section className="">
-          <div>
+      <main className="flex items-center justify-center">
+        <section className="basis-1/2 ">
+          <div className="">
             <h1 className="bg-slate-500">Personal Hoe</h1>
             <h1>Your Gardening Assistant</h1>
             <p>
@@ -26,8 +26,9 @@ function App() {
             </form>
           </div>
         </section>
-        <section className="">
+        <section className="mx-auto basis-1/2">
           <img
+            className="drop-shadow rounded-sm"
             src="./src/imgs/screely-1675305057167.png"
             alt="image of website mockup"
             srcset=""
