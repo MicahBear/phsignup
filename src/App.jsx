@@ -1,3 +1,4 @@
+import MailChimpFormContainer from "./components/MailChimp";
 function App() {
   return (
     <div className="App relative mx-auto my-0 flex min-h-screen max-w-screen-2xl flex-col overflow-hidden bg-white">
@@ -15,7 +16,8 @@ function App() {
             </p>
           </div>
           <div className="m-0 mt-8 max-w-md md:flex">
-            <form>
+            <MailChimpFormContainer />
+            {/* <form>
               <div className="mr-2 flex-shrink flex-grow">
                 <p>Sign up to get access to beta.</p>
 
@@ -32,7 +34,7 @@ function App() {
                   sign up
                 </button>
               </div>
-            </form>
+            </form> */}
           </div>
         </section>
         <section className="">
