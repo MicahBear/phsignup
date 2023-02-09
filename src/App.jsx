@@ -17,7 +17,24 @@ function App() {
           </div>
           <div className="m-0 mt-8 max-w-md md:flex">
             <MailChimpFormContainer />
-            {/* <form>
+          </div>
+        </section>
+        <section className="">
+          <img
+            className="drop-shadow rounded-sm px-3 w-70"
+            src="./src/imgs/screely-1675305057167.png"
+            alt="image of website mockup"
+          />
+        </section>
+      </main>
+    </div>
+  );
+}
+
+export default App;
+
+{
+  /* <form>
               <div className="mr-2 flex-shrink flex-grow">
                 <p>Sign up to get access to beta.</p>
 
@@ -34,19 +51,5 @@ function App() {
                   sign up
                 </button>
               </div>
-            </form> */}
-          </div>
-        </section>
-        <section className="">
-          <img
-            className="drop-shadow rounded-sm px-3 w-70"
-            src="./src/imgs/screely-1675305057167.png"
-            alt="image of website mockup"
-          />
-        </section>
-      </main>
-    </div>
-  );
+            </form> */
 }
-
-export default App;
