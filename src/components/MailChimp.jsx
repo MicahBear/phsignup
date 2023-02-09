@@ -1,10 +1,9 @@
+// import { loadEnv } from "vite";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 import CustomForm from "./CustomForm";
-
 export default function MailChimpFormContainer(props) {
-  const actionUrl = `https://gmail.us21.list-manage.com/subscribe/post?u=${
-    import.meta.env.U
-  }&id=${import.meta.env.I}`;
+  //   const userId = import.meta.env.VITE_ID;
+  const actionUrl = `${import.meta.env.VITE_URL}`;
   return (
     <div className="mc__form-container">
       <MailchimpSubscribe
