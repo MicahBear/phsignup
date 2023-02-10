@@ -1,6 +1,6 @@
 # Subscription Form
 
-Created landing page with a Subscription form, that will able to used for other clients and projects. Currently in use for Personal Hoe : your gardening assistent.
+Created landing page with a Subscription form, that will able to used for other clients and projects. Currently in use for Personal Hoe : your gardening assistant.
 
 ## Tech Stack
 
