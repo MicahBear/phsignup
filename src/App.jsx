@@ -1,4 +1,5 @@
 import MailChimpFormContainer from "./components/MailChimp";
+import MockUp from "./imgs/screely-1675305057167.png";
 function App() {
   return (
     <div className="App relative mx-auto my-0 flex min-h-screen max-w-screen-2xl flex-col overflow-hidden bg-white">
@@ -22,7 +23,7 @@ function App() {
         <section className="">
           <img
             className="drop-shadow rounded-sm px-3 w-70"
-            src="./src/imgs/screely-1675305057167.png"
+            src={MockUp}
             alt="image of website mockup"
           />
         </section>
