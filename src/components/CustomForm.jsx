@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import InputField from "./InputForm";
 
 export default function CustomForm({ status, message, onValidated }) {
-  console.log(message);
   const [email, setEmail] = useState("");
 
   const handleSubmit = (e) => {
@@ -17,7 +16,7 @@ export default function CustomForm({ status, message, onValidated }) {
   };
   return (
     <>
-      <form onSubmit={(e) => handleSubmit(e)}>
+      <form method="POST" data-netlify="true" onSubmit={(e) => handleSubmit(e)}>
         {status === "sending" && <div>sending</div>}
         {status === "error" && <div>{message}</div>}
         {status === "success" && <div>success</div>}
