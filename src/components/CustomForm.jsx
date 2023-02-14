@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import InputField from "./InputForm";
 
 export default function CustomForm({ status, message, onValidated }) {
+  console.log(message);
   const [email, setEmail] = useState("");
 
   const handleSubmit = (e) => {

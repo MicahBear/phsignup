@@ -3,7 +3,8 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 import CustomForm from "./CustomForm";
 export default function MailChimpFormContainer(props) {
   //   const userId = import.meta.env.VITE_ID;
-  const actionUrl = `${import.meta.env.VITE_URL}`;
+  const actionUrl = `${import.meta.env.VITE_MAILCHIMP}`;
+
   return (
     <div className="mc__form-container">
       <MailchimpSubscribe
