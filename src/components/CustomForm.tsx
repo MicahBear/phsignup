@@ -23,7 +23,6 @@ export default function SubscribeForm() {
       }
     } catch (error) {
       setStatus("ERROR");
-      console.log(error);
     }
   };
   const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
