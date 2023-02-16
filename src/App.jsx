@@ -1,4 +1,5 @@
-import MailChimpFormContainer from "./components/MailChimp";
+// import MailChimpFormContainer from "./components/MailChimp";
+import CustomForm from "./components/CustomForm";
 import MockUp from "./imgs/screely-1675305057167.png";
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             </p>
           </div>
           <div className="m-0 mt-8 max-w-md md:flex">
-            <MailChimpFormContainer />
+            <CustomForm />
           </div>
         </section>
         <section className="">
