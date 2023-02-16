@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function SubscribeForm() {
-  const FORM_URL = import.meta.env.VITE_CKIT;
+  const FORM_URL = `https://app.convertkit.com/forms/4866195/subscriptions`;
   const [status, setStatus] = useState<string | null>(null);
   const [email, setEmail] = useState("");
 
